@@ -1,0 +1,678 @@
+2022-10-16 22:04:32.993 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:04:33.030 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:04:33.033 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:04:33.033 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:04:33.033 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:04:34.818 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:04:35.311 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:04:35.311 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:04:35.336 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 521.8556ms
+
+2022-10-16 22:04:35.336 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 22.2132ms
+
+2022-10-16 22:04:35.582 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 270.4423ms
+
+2022-10-16 22:04:35.654 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:04:35.877 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 223.4366ms
+
+2022-10-16 22:05:47.159 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:05:47.188 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:05:47.191 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:05:47.191 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:05:47.191 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:05:48.273 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:05:48.620 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:05:48.620 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:05:48.632 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 358.9012ms
+
+2022-10-16 22:05:48.632 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 12.0009ms
+
+2022-10-16 22:05:48.648 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.2046ms
+
+2022-10-16 22:05:48.741 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:05:48.882 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 140.8644ms
+
+2022-10-16 22:06:01.386 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/api/v1?userNames=string - -
+
+2022-10-16 22:06:01.415 +11:00  INF  Executing endpoint 'GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API)'
+
+2022-10-16 22:06:01.487 +11:00  INF  Route matched with {action = "RetrieveUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RetrieveUsers(System.String[]) on controller GITUsers.API.Controllers.UsersController (GITUsers.API).
+
+2022-10-16 22:06:01.611 +11:00  INF  Start processing HTTP request GET "https://api.github.com/users/string"
+
+2022-10-16 22:06:01.656 +11:00  INF  Sending HTTP request GET "https://api.github.com/users/string"
+
+2022-10-16 22:06:02.116 +11:00  INF  Received HTTP response headers after 450.2908ms - 200
+
+2022-10-16 22:06:02.128 +11:00  INF  End processing HTTP request after 527.8899ms - 200
+
+2022-10-16 22:06:02.170 +11:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[GITUsers.API.Models.User, GITUsers.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+2022-10-16 22:06:02.196 +11:00  INF  Executed action GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API) in 698.9002ms
+
+2022-10-16 22:06:02.197 +11:00  INF  Executed endpoint 'GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API)'
+
+2022-10-16 22:06:02.198 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/api/v1?userNames=string - - - 200 - application/json;+charset=utf-8;+ver=1 812.1506ms
+
+2022-10-16 22:13:05.981 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:13:06.008 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:13:06.010 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:13:06.010 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:13:06.011 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:13:06.871 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:13:07.567 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:13:07.567 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:13:07.597 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 727.3772ms
+
+2022-10-16 22:13:07.597 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 26.4367ms
+
+2022-10-16 22:13:07.631 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.0197ms
+
+2022-10-16 22:13:07.712 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:13:07.955 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 242.3399ms
+
+2022-10-16 22:13:16.703 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:13:16.708 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.1243ms
+
+2022-10-16 22:13:16.804 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/favicon.ico - -
+
+2022-10-16 22:13:16.808 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/favicon.ico - - - 404 0 - 4.4999ms
+
+2022-10-16 22:13:49.065 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:13:49.093 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:13:49.097 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:13:49.097 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:13:49.097 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:13:50.043 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:13:50.350 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:13:50.350 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:13:50.364 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 13.5590ms
+
+2022-10-16 22:13:50.364 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 325.4950ms
+
+2022-10-16 22:13:50.380 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.5563ms
+
+2022-10-16 22:13:50.456 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:13:50.618 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 161.5347ms
+
+2022-10-16 22:13:56.673 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:13:56.679 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.5203ms
+
+2022-10-16 22:13:56.720 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/favicon.ico - -
+
+2022-10-16 22:13:56.724 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/favicon.ico - - - 404 0 - 4.3310ms
+
+2022-10-16 22:19:23.100 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:19:23.150 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:19:23.155 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:19:23.156 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:19:23.156 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:19:24.514 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:19:25.230 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:19:25.231 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:19:25.261 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 27.0876ms
+
+2022-10-16 22:19:25.286 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 783.8619ms
+
+2022-10-16 22:19:25.395 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 164.3232ms
+
+2022-10-16 22:19:25.494 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:19:25.731 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 237.0656ms
+
+2022-10-16 22:19:34.416 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:19:34.421 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.8126ms
+
+2022-10-16 22:19:34.545 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/favicon.ico - -
+
+2022-10-16 22:19:34.551 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/favicon.ico - - - 404 0 - 6.2776ms
+
+2022-10-16 22:20:25.475 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:20:25.526 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:20:25.531 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:20:25.531 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:20:25.531 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:20:26.797 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:20:27.494 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:20:27.494 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:20:27.519 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 22.3024ms
+
+2022-10-16 22:20:27.523 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 738.2538ms
+
+2022-10-16 22:20:27.551 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.9059ms
+
+2022-10-16 22:20:27.738 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:20:27.995 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 257.3525ms
+
+2022-10-16 22:22:20.032 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:22:20.062 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:22:20.064 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:22:20.065 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:22:20.065 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:22:20.972 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:22:21.318 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:22:21.318 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:22:21.335 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 368.5588ms
+
+2022-10-16 22:22:21.335 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 14.6881ms
+
+2022-10-16 22:22:21.393 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 74.9229ms
+
+2022-10-16 22:22:21.448 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:22:21.577 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 129.0292ms
+
+2022-10-16 22:28:24.913 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:28:24.953 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:28:24.958 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:28:24.958 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:28:24.959 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:28:26.098 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:28:26.610 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:28:26.610 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:28:26.627 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 15.0397ms
+
+2022-10-16 22:28:26.627 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 534.2084ms
+
+2022-10-16 22:28:26.649 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.2984ms
+
+2022-10-16 22:28:26.719 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:28:27.097 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 377.9326ms
+
+2022-10-16 22:29:46.170 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:29:46.199 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:29:46.202 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:29:46.202 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:29:46.202 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:29:46.827 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:29:47.164 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:29:47.164 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:29:47.178 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 12.9099ms
+
+2022-10-16 22:29:47.178 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 357.8173ms
+
+2022-10-16 22:29:47.194 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.0307ms
+
+2022-10-16 22:29:47.273 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:29:47.414 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 140.3300ms
+
+2022-10-16 22:30:55.258 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:30:55.285 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:30:55.287 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:30:55.288 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:30:55.288 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:30:56.029 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:30:56.327 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:30:56.327 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:30:56.349 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 21.8162ms
+
+2022-10-16 22:30:56.349 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 322.4801ms
+
+2022-10-16 22:30:56.372 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.9849ms
+
+2022-10-16 22:30:56.447 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:30:56.603 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.5451ms
+
+2022-10-16 22:36:03.519 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:36:03.548 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:36:03.551 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:36:03.551 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:36:03.551 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:36:04.169 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:36:04.476 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:36:04.476 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:36:04.491 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 13.0473ms
+
+2022-10-16 22:36:04.491 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 325.8762ms
+
+2022-10-16 22:36:04.615 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 138.5586ms
+
+2022-10-16 22:36:04.677 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:36:04.819 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.0010ms
+
+2022-10-16 22:36:12.341 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:36:12.347 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.2740ms
+
+2022-10-16 22:36:12.436 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/favicon.ico - -
+
+2022-10-16 22:36:12.439 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/favicon.ico - - - 404 0 - 3.6667ms
+
+2022-10-16 22:36:33.517 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:36:33.531 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 13.7222ms
+
+2022-10-16 22:36:33.534 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:36:33.534 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:36:33.534 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.0021ms
+
+2022-10-16 22:36:33.546 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.9833ms
+
+2022-10-16 22:36:33.622 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:36:33.624 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1.9857ms
+
+2022-10-16 22:36:43.602 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:36:43.638 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:36:43.641 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:36:43.641 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:36:43.641 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:36:44.147 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:36:44.539 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:36:44.539 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:36:44.560 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 19.8783ms
+
+2022-10-16 22:36:44.560 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 418.6018ms
+
+2022-10-16 22:36:44.596 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.5846ms
+
+2022-10-16 22:36:44.667 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:36:44.833 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.9664ms
+
+2022-10-16 22:37:13.203 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:37:13.231 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:37:13.233 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:37:13.234 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:37:13.234 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:37:13.985 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:37:14.323 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:37:14.323 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:37:14.340 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 358.8516ms
+
+2022-10-16 22:37:14.340 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 15.1233ms
+
+2022-10-16 22:37:14.354 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.9850ms
+
+2022-10-16 22:37:14.427 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:37:14.569 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.2553ms
+
+2022-10-16 22:37:59.942 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:37:59.980 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:37:59.983 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:37:59.983 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:37:59.983 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:38:00.872 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:38:01.184 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:38:01.184 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:38:01.223 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 38.2778ms
+
+2022-10-16 22:38:01.223 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 355.0534ms
+
+2022-10-16 22:38:01.243 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.3613ms
+
+2022-10-16 22:38:01.311 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:38:01.462 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 150.4552ms
+
+2022-10-16 22:40:09.366 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:40:09.398 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:40:09.400 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:40:09.401 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:40:09.401 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:40:10.417 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:40:10.759 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:40:10.759 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:40:10.769 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.5001ms
+
+2022-10-16 22:40:10.769 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 354.6287ms
+
+2022-10-16 22:40:10.807 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.8066ms
+
+2022-10-16 22:40:10.866 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:40:10.987 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 120.3041ms
+
+2022-10-16 22:40:28.381 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/api/Users/Retrieve?userNames=string&userNames=string - -
+
+2022-10-16 22:40:28.394 +11:00  INF  Executing endpoint 'GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API)'
+
+2022-10-16 22:40:28.451 +11:00  INF  Route matched with {action = "RetrieveUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RetrieveUsers(System.String[]) on controller GITUsers.API.Controllers.UsersController (GITUsers.API).
+
+2022-10-16 22:40:28.556 +11:00  INF  Start processing HTTP request GET "https://api.github.com/users/string"
+
+2022-10-16 22:40:28.599 +11:00  INF  Sending HTTP request GET "https://api.github.com/users/string"
+
+2022-10-16 22:40:29.140 +11:00  INF  Received HTTP response headers after 531.2646ms - 200
+
+2022-10-16 22:40:29.157 +11:00  INF  End processing HTTP request after 610.4017ms - 200
+
+2022-10-16 22:40:29.198 +11:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[GITUsers.API.Models.User, GITUsers.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+2022-10-16 22:40:29.215 +11:00  INF  Executed action GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API) in 756.0171ms
+
+2022-10-16 22:40:29.217 +11:00  INF  Executed endpoint 'GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API)'
+
+2022-10-16 22:40:29.218 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/api/Users/Retrieve?userNames=string&userNames=string - - - 200 - application/json;+charset=utf-8 837.2733ms
+
+2022-10-16 22:42:31.405 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:42:31.436 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:42:31.438 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:42:31.438 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:42:31.438 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:42:32.574 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:42:32.896 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:42:32.896 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:42:32.912 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 13.1825ms
+
+2022-10-16 22:42:32.912 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 341.2663ms
+
+2022-10-16 22:42:32.927 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.3428ms
+
+2022-10-16 22:42:32.996 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:42:33.114 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.4601ms
+
+2022-10-16 22:42:41.894 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/api/Users/Retrieve?userNames=string&userNames=string&userNames=string - -
+
+2022-10-16 22:42:41.911 +11:00  INF  Executing endpoint 'GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API)'
+
+2022-10-16 22:42:41.990 +11:00  INF  Route matched with {action = "RetrieveUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RetrieveUsers(System.String[]) on controller GITUsers.API.Controllers.UsersController (GITUsers.API).
+
+2022-10-16 22:42:42.119 +11:00  INF  Start processing HTTP request GET "https://api.github.com/users/string"
+
+2022-10-16 22:42:42.167 +11:00  INF  Sending HTTP request GET "https://api.github.com/users/string"
+
+2022-10-16 22:42:42.669 +11:00  INF  Received HTTP response headers after 493.6473ms - 200
+
+2022-10-16 22:42:42.684 +11:00  INF  End processing HTTP request after 578.3952ms - 200
+
+2022-10-16 22:42:42.725 +11:00  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[GITUsers.API.Models.User, GITUsers.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+
+2022-10-16 22:42:42.742 +11:00  INF  Executed action GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API) in 743.2451ms
+
+2022-10-16 22:42:42.744 +11:00  INF  Executed endpoint 'GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API)'
+
+2022-10-16 22:42:42.745 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/api/Users/Retrieve?userNames=string&userNames=string&userNames=string - - - 200 - application/json;+charset=utf-8 851.3457ms
+
+2022-10-16 22:43:28.321 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:43:28.356 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:43:28.359 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:43:28.360 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:43:28.360 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:43:28.999 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:43:29.371 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:43:29.371 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:43:29.383 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.0603ms
+
+2022-10-16 22:43:29.383 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 387.6793ms
+
+2022-10-16 22:43:29.422 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.9610ms
+
+2022-10-16 22:43:29.493 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:43:29.641 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 146.8556ms
+
+2022-10-16 22:45:45.846 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:45:45.873 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:45:45.876 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:45:45.876 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:45:45.876 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:45:46.707 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:45:46.981 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:45:46.981 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:45:46.986 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 280.6473ms
+
+2022-10-16 22:45:46.986 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 3.9568ms
+
+2022-10-16 22:45:47.025 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.2913ms
+
+2022-10-16 22:45:47.082 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:45:47.203 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.0601ms
+
+2022-10-16 22:45:55.692 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/api/retrieveUsers?userNames=string - -
+
+2022-10-16 22:45:55.709 +11:00  INF  Executing endpoint 'GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API)'
+
+2022-10-16 22:45:55.776 +11:00  INF  Route matched with {action = "RetrieveUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RetrieveUsers(System.String[]) on controller GITUsers.API.Controllers.UsersController (GITUsers.API).
+
+2022-10-16 22:45:55.895 +11:00  INF  Start processing HTTP request GET "https://api.github.com/users/string"
+
+2022-10-16 22:45:55.942 +11:00  INF  Sending HTTP request GET "https://api.github.com/users/string"
+
+2022-10-16 22:45:56.428 +11:00  INF  Received HTTP response headers after 478.3384ms - 200
+
+2022-10-16 22:45:56.436 +11:00  INF  End processing HTTP request after 552.7242ms - 200
+
+2022-10-16 22:45:56.557 +11:00  INF  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+
+2022-10-16 22:45:56.575 +11:00  INF  Executed action GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API) in 789.5692ms
+
+2022-10-16 22:45:56.577 +11:00  INF  Executed endpoint 'GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API)'
+
+2022-10-16 22:45:56.579 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/api/retrieveUsers?userNames=string - - - 500 - application/problem+json;+charset=utf-8 887.1223ms
+
+2022-10-16 22:49:47.194 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:49:47.224 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:49:47.227 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:49:47.227 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:49:47.227 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:49:47.878 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:49:48.190 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:49:48.190 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:49:48.203 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 329.1012ms
+
+2022-10-16 22:49:48.203 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 12.6080ms
+
+2022-10-16 22:49:48.241 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.6017ms
+
+2022-10-16 22:49:48.291 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:49:48.426 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.4483ms
+
+2022-10-16 22:49:57.038 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/retrieveUsers?userNames=string&userNames=string - -
+
+2022-10-16 22:49:57.052 +11:00  INF  Executing endpoint 'GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API)'
+
+2022-10-16 22:49:57.103 +11:00  INF  Route matched with {action = "RetrieveUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RetrieveUsers(System.String[]) on controller GITUsers.API.Controllers.UsersController (GITUsers.API).
+
+2022-10-16 22:49:57.199 +11:00  INF  Start processing HTTP request GET "https://api.github.com/users/string"
+
+2022-10-16 22:49:57.239 +11:00  INF  Sending HTTP request GET "https://api.github.com/users/string"
+
+2022-10-16 22:49:57.706 +11:00  INF  Received HTTP response headers after 457.4248ms - 200
+
+2022-10-16 22:49:57.718 +11:00  INF  End processing HTTP request after 528.6751ms - 200
+
+2022-10-16 22:49:57.817 +11:00  INF  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+
+2022-10-16 22:49:57.836 +11:00  INF  Executed action GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API) in 720.32ms
+
+2022-10-16 22:49:57.838 +11:00  INF  Executed endpoint 'GITUsers.API.Controllers.UsersController.RetrieveUsers (GITUsers.API)'
+
+2022-10-16 22:49:57.839 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/retrieveUsers?userNames=string&userNames=string - - - 500 - application/problem+json;+charset=utf-8 801.2272ms
+
+2022-10-16 22:58:09.283 +11:00  INF  Now listening on: https://localhost:7225
+
+2022-10-16 22:58:09.309 +11:00  INF  Now listening on: http://localhost:5225
+
+2022-10-16 22:58:09.312 +11:00  INF  Application started. Press Ctrl+C to shut down.
+
+2022-10-16 22:58:09.312 +11:00  INF  Hosting environment: Development
+
+2022-10-16 22:58:09.312 +11:00  INF  Content root path: C:\projects\SelfWealth\GITUsers\src\GITUsers.API\
+
+2022-10-16 22:58:10.066 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/index.html - -
+
+2022-10-16 22:58:10.384 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - -
+
+2022-10-16 22:58:10.384 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/_vs/browserLink - -
+
+2022-10-16 22:58:10.401 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 15.0032ms
+
+2022-10-16 22:58:10.401 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/index.html - - - 200 - text/html;charset=utf-8 340.6160ms
+
+2022-10-16 22:58:10.420 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.7577ms
+
+2022-10-16 22:58:10.485 +11:00  INF  Request starting HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - -
+
+2022-10-16 22:58:10.618 +11:00  INF  Request finished HTTP/2 GET https://localhost:7225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 132.4047ms
+
